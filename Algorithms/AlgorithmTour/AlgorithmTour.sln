@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmTour", "AlgorithmTour\AlgorithmTour.csproj", "{2B7C90C3-CE49-47E1-9F49-2086D889A9B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B7C90C3-CE49-47E1-9F49-2086D889A9B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B7C90C3-CE49-47E1-9F49-2086D889A9B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B7C90C3-CE49-47E1-9F49-2086D889A9B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B7C90C3-CE49-47E1-9F49-2086D889A9B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA7A6F48-4082-4BBD-A51A-6A39AA264F4F}
+	EndGlobalSection
+EndGlobal

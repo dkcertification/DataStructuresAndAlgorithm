@@ -1,0 +1,13 @@
+E:\DataStructuresAndAlgorithm\Algorithms\AlgorithmTour\AlgorithmTour\obj\Debug\netcoreapp3.1\AlgorithmTour.csprojAssemblyReference.cache
+E:\DataStructuresAndAlgorithm\Algorithms\AlgorithmTour\AlgorithmTour\obj\Debug\netcoreapp3.1\AlgorithmTour.AssemblyInfoInputs.cache
+E:\DataStructuresAndAlgorithm\Algorithms\AlgorithmTour\AlgorithmTour\obj\Debug\netcoreapp3.1\AlgorithmTour.AssemblyInfo.cs
+E:\DataStructuresAndAlgorithm\Algorithms\AlgorithmTour\AlgorithmTour\obj\Debug\netcoreapp3.1\AlgorithmTour.csproj.CoreCompileInputs.cache
+E:\DataStructuresAndAlgorithm\Algorithms\AlgorithmTour\AlgorithmTour\bin\Debug\netcoreapp3.1\AlgorithmTour.exe
+E:\DataStructuresAndAlgorithm\Algorithms\AlgorithmTour\AlgorithmTour\bin\Debug\netcoreapp3.1\AlgorithmTour.deps.json
+E:\DataStructuresAndAlgorithm\Algorithms\AlgorithmTour\AlgorithmTour\bin\Debug\netcoreapp3.1\AlgorithmTour.runtimeconfig.json
+E:\DataStructuresAndAlgorithm\Algorithms\AlgorithmTour\AlgorithmTour\bin\Debug\netcoreapp3.1\AlgorithmTour.runtimeconfig.dev.json
+E:\DataStructuresAndAlgorithm\Algorithms\AlgorithmTour\AlgorithmTour\bin\Debug\netcoreapp3.1\AlgorithmTour.dll
+E:\DataStructuresAndAlgorithm\Algorithms\AlgorithmTour\AlgorithmTour\bin\Debug\netcoreapp3.1\AlgorithmTour.pdb
+E:\DataStructuresAndAlgorithm\Algorithms\AlgorithmTour\AlgorithmTour\obj\Debug\netcoreapp3.1\AlgorithmTour.dll
+E:\DataStructuresAndAlgorithm\Algorithms\AlgorithmTour\AlgorithmTour\obj\Debug\netcoreapp3.1\AlgorithmTour.pdb
+E:\DataStructuresAndAlgorithm\Algorithms\AlgorithmTour\AlgorithmTour\obj\Debug\netcoreapp3.1\AlgorithmTour.genruntimeconfig.cache
