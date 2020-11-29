@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AlgorithmTour
+namespace AlgorithmTour.Concepts
 {
     class BubbleSort
     {

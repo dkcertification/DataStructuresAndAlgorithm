@@ -1,4 +1,6 @@
-﻿using AlgorithmTour.Problems;
+﻿using AlgorithmTour.ArrayDS_Algo;
+using AlgorithmTour.Concepts;
+using AlgorithmTour.Problems;
 using System;
 using System.Collections.Generic;
 
@@ -39,10 +41,38 @@ namespace AlgorithmTour
             /*RemoveDuplicatesFromArray RDFA = new RemoveDuplicatesFromArray();
             RDFA.RemoveDuplicatesFromArray_V0(new int[] { 1,1,1,2,2,3,4,5 });*/
 
-
+            /*
             FindDuplicates FD = new FindDuplicates();
             Console.WriteLine(FD.FindDuplicates_V0(new int[] { 4, 5, 1, 3, 2, 1 }));
+            */
 
+            /*
+            int[] intArr = new int[] { 3, 4, -7, 3, 1, 3, 1, -4, -2, -2 };//{ 4, 2, -3, -1, 0, 4 };
+            CheckZeroInSubArray CHZ = new CheckZeroInSubArray();
+            CHZ.PrintAllSubArrayWithZeroSum_V2(intArr);
+            */
+
+            /*
+            int[] A = { 1, 0, 1, 0, 1, 0, 0, 1 };
+            
+            SortBinary obj = new SortBinary();
+            obj.Sort_Binary_V2(A);
+            Console.WriteLine(string.Join(",", A));
+            */
+
+            /*Quick Sort Implementation*/
+            //int[] A = { 1, 0, 1, 0, 1, 0, 0, 1 };
+            int[] A = { 9, -3, 5, 2, 6, 8, -6, 1, 3 };
+
+            int n = A.Length-1 / A[0];
+            Console.WriteLine("n = " + n);
+            QuickSortPOC _QSP = new QuickSortPOC();
+
+
+            _QSP.QuickSort(A, 0, n - 1);
+
+
+            Console.WriteLine(string.Join(",", A));
         }
     }
 }
