@@ -81,7 +81,7 @@ namespace AlgorithmTour
 
             int[] A = { 5, 6, -5, 5, 3, 5, 3, -2, 0 };
             SubArrayMaxLength SAML = new SubArrayMaxLength();
-            SAML.subArrayMaxLength(A, 8);
+            SAML.subArrayMaxLength_V1(A, 8);
 
 
 
