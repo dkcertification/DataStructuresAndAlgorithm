@@ -47,6 +47,12 @@ namespace AlgorithmTour.Problems
             }
         }
 
+        /*
+         * Find frequency of each element in a limited range array in less than O(n) time
+            Given a sorted array of positive integers, the count number of occurrences for each element in the array. 
+            Assume all elements in the array are less than some constant M.
+            Do this without traversing the complete array. i.e. expected time complexity is less than O(n). 
+        */
         public bool SumOfNumberInArray_V2(int[] values, int _expectedValue)
         {
             HashSet<int> visitedValue = new HashSet<int>();
@@ -65,9 +71,9 @@ namespace AlgorithmTour.Problems
                 Tool Used :: HashSet / lookup insertion             
              */
 
-        }
+    }
 
-        public bool SumOfNumberInArray_V3(int[] values, int _expectedValue)
+    public bool SumOfNumberInArray_V3(int[] values, int _expectedValue)
         {
             //pseudo
             /*

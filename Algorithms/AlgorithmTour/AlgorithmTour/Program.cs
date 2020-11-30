@@ -54,7 +54,7 @@ namespace AlgorithmTour
 
             /*
             int[] A = { 1, 0, 1, 0, 1, 0, 0, 1 };
-            
+
             SortBinary obj = new SortBinary();
             obj.Sort_Binary_V2(A);
             Console.WriteLine(string.Join(",", A));
@@ -62,17 +62,29 @@ namespace AlgorithmTour
 
             /*Quick Sort Implementation*/
             //int[] A = { 1, 0, 1, 0, 1, 0, 0, 1 };
+
+            /*
             int[] A = { 9, -3, 5, 2, 6, 8, -6, 1, 3 };
 
             int n = A.Length-1 / A[0];
             Console.WriteLine("n = " + n);
             QuickSortPOC _QSP = new QuickSortPOC();
-
-
             _QSP.QuickSort(A, 0, n - 1);
-
-
             Console.WriteLine(string.Join(",", A));
+            */
+            /*int[] Input = { 2, 1, 2, 3, 4 };
+            int[] Input = { 1, 2, 2, 3, 4 };
+            FindDuplicateInArray FDI = new FindDuplicateInArray();
+            int n = Input.Length;
+            FDI.FindFrequency(Input, n);
+            */
+
+            int[] A = { 5, 6, -5, 5, 3, 5, 3, -2, 0 };
+            SubArrayMaxLength SAML = new SubArrayMaxLength();
+            SAML.subArrayMaxLength(A, 8);
+
+
+
         }
     }
 }
