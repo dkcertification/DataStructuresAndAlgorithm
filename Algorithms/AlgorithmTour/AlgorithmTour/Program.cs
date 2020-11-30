@@ -79,9 +79,9 @@ namespace AlgorithmTour
             FDI.FindFrequency(Input, n);
             */
 
-            int[] A = { 5, 6, -5, 5, 3, 5, 3, -2, 0 };
+            int[] A = { 10, 5, 2, 7, 1, 9 };
             SubArrayMaxLength SAML = new SubArrayMaxLength();
-            SAML.subArrayMaxLength_V1(A, 8);
+            SAML.subArrayMaxLength_V1(A, 15);
 
 
 

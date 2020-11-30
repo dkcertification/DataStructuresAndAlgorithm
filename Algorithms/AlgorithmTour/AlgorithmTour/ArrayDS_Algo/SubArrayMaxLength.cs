@@ -62,8 +62,8 @@ namespace AlgorithmTour.ArrayDS_Algo
             for(int i=0; i<A.Length; i++)
             {
                 sum += A[i];
-                if (!map.ContainsKey(sum))
-                    map.Add(sum, i);
+                
+                map.TryAdd(sum, i);
                 
                 if (map.ContainsKey(sum-expectedValue) && len < i- map[sum - expectedValue])
                 {
