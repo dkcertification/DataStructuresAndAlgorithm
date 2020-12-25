@@ -1,9 +1,13 @@
 ﻿using AlgorithmTour.ArrayDS_Algo;
+using AlgorithmTour.Complexity;
 using AlgorithmTour.Concepts;
 using AlgorithmTour.Problems;
 using AlgorithmTour.StackDS_Algo;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq;
+using static AlgorithmTour.Complexity.Algorithms_DataStruct;
 
 namespace AlgorithmTour
 {
@@ -91,42 +95,61 @@ namespace AlgorithmTour
         //}
 
         //FOR STACKS ...
-        public static void Main (string[] args)
+        //public static void Main (string[] args)
+        //{
+        //    //StackImplementationUsingArrays SIA = new StackImplementationUsingArrays(5);
+
+        //    //SIA.Push(10);
+        //    //SIA.Push(20);
+        //    //SIA.Push(30);
+        //    //SIA.Push(40);
+        //    //SIA.PrintStack();
+        //    //SIA.Peek();
+        //    //Console.WriteLine("Item popped from Stack : {0}", SIA.Pop());
+        //    //SIA.PrintStack();
+
+        //    //StackAsLinkedList sll = new StackAsLinkedList();
+
+        //    //sll.push(10);
+        //    //sll.push(20);
+        //    //sll.push(30);
+
+        //    //Console.WriteLine(sll.pop() + " popped from stack");
+
+        //    //Console.WriteLine("Top element is " + sll.peek());
+
+
+        //    String exp = "[()]{}{[()()]()}";//"{()}[{}]";
+        //    BalancedExpressions bal = new BalancedExpressions();
+        //    if (bal.balParenthesis(exp))
+        //    {
+        //        Console.WriteLine("The expression is balanced");
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine("The expression is not balanced");
+        //    }
+
+
+
+        //}
+
+        public static void Main(String[] args)
         {
-            //StackImplementationUsingArrays SIA = new StackImplementationUsingArrays(5);
+            //118 ms = 1kints
+            //7 Sec = 4Kints
+            //57 Sec for 8kints
+            //var ints = Concept.ReadInt("16kints.txt").ToArray();
+            //var watch = new Stopwatch();
+            //watch.Start();
+            //var triplets = ThreeSum.Count(ints);
 
-            //SIA.Push(10);
-            //SIA.Push(20);
-            //SIA.Push(30);
-            //SIA.Push(40);
-            //SIA.PrintStack();
-            //SIA.Peek();
-            //Console.WriteLine("Item popped from Stack : {0}", SIA.Pop());
-            //SIA.PrintStack();
+            //watch.Stop();
+            //Console.WriteLine(triplets);
+            //Console.WriteLine($"Time Taken : {watch.Elapsed:g}");
+            //Console.ReadLine();
 
-            //StackAsLinkedList sll = new StackAsLinkedList();
-
-            //sll.push(10);
-            //sll.push(20);
-            //sll.push(30);
-
-            //Console.WriteLine(sll.pop() + " popped from stack");
-
-            //Console.WriteLine("Top element is " + sll.peek());
-
-
-            String exp = "[()]{}{[()()]()}";//"{()}[{}]";
-            BalancedExpressions bal = new BalancedExpressions();
-            if (bal.balParenthesis(exp))
-            {
-                Console.WriteLine("The expression is balanced");
-            }
-            else
-            {
-                Console.WriteLine("The expression is not balanced");
-            }
-
-
+            //BubbleSort.BubbleSortImpl(new int[] { 2, 6, 10, 20, 40, 5 });
 
         }
     }

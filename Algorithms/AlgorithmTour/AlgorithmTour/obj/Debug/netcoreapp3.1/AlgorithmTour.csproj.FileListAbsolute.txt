@@ -11,3 +11,8 @@ E:\DataStructuresAndAlgorithm\Algorithms\AlgorithmTour\AlgorithmTour\bin\Debug\n
 E:\DataStructuresAndAlgorithm\Algorithms\AlgorithmTour\AlgorithmTour\obj\Debug\netcoreapp3.1\AlgorithmTour.dll
 E:\DataStructuresAndAlgorithm\Algorithms\AlgorithmTour\AlgorithmTour\obj\Debug\netcoreapp3.1\AlgorithmTour.pdb
 E:\DataStructuresAndAlgorithm\Algorithms\AlgorithmTour\AlgorithmTour\obj\Debug\netcoreapp3.1\AlgorithmTour.genruntimeconfig.cache
+E:\DataStructuresAndAlgorithm\Algorithms\AlgorithmTour\AlgorithmTour\bin\Debug\netcoreapp3.1\Complexity\Data\16Kints.txt
+E:\DataStructuresAndAlgorithm\Algorithms\AlgorithmTour\AlgorithmTour\bin\Debug\netcoreapp3.1\Complexity\Data\1Kints.txt
+E:\DataStructuresAndAlgorithm\Algorithms\AlgorithmTour\AlgorithmTour\bin\Debug\netcoreapp3.1\Complexity\Data\2Kints.txt
+E:\DataStructuresAndAlgorithm\Algorithms\AlgorithmTour\AlgorithmTour\bin\Debug\netcoreapp3.1\Complexity\Data\4Kints.txt
+E:\DataStructuresAndAlgorithm\Algorithms\AlgorithmTour\AlgorithmTour\bin\Debug\netcoreapp3.1\Complexity\Data\8Kints.txt

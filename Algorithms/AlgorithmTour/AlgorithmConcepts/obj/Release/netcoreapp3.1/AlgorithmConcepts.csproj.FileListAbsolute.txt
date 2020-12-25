@@ -1,0 +1,9 @@
+E:\DataStructuresAndAlgorithm\Algorithms\AlgorithmTour\AlgorithmConcepts\bin\Release\netcoreapp3.1\AlgorithmConcepts.deps.json
+E:\DataStructuresAndAlgorithm\Algorithms\AlgorithmTour\AlgorithmConcepts\bin\Release\netcoreapp3.1\AlgorithmConcepts.dll
+E:\DataStructuresAndAlgorithm\Algorithms\AlgorithmTour\AlgorithmConcepts\bin\Release\netcoreapp3.1\AlgorithmConcepts.pdb
+E:\DataStructuresAndAlgorithm\Algorithms\AlgorithmTour\AlgorithmConcepts\obj\Release\netcoreapp3.1\AlgorithmConcepts.AssemblyInfoInputs.cache
+E:\DataStructuresAndAlgorithm\Algorithms\AlgorithmTour\AlgorithmConcepts\obj\Release\netcoreapp3.1\AlgorithmConcepts.AssemblyInfo.cs
+E:\DataStructuresAndAlgorithm\Algorithms\AlgorithmTour\AlgorithmConcepts\obj\Release\netcoreapp3.1\AlgorithmConcepts.csproj.CoreCompileInputs.cache
+E:\DataStructuresAndAlgorithm\Algorithms\AlgorithmTour\AlgorithmConcepts\obj\Release\netcoreapp3.1\AlgorithmConcepts.dll
+E:\DataStructuresAndAlgorithm\Algorithms\AlgorithmTour\AlgorithmConcepts\obj\Release\netcoreapp3.1\AlgorithmConcepts.pdb
+E:\DataStructuresAndAlgorithm\Algorithms\AlgorithmTour\AlgorithmConcepts\obj\Release\netcoreapp3.1\AlgorithmConcepts.csprojAssemblyReference.cache
