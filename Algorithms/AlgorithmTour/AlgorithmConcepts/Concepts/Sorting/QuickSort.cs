@@ -27,45 +27,44 @@ namespace AlgorithmConcepts.Concepts
             sort(0, array.Length - 1);
 
             //Recursive Function
-            void sort(int low, int high)
+            void sort(int lowIndex, int highIndex)
             {
                 //Base case::
-                if (high <= low)
+                if (highIndex <= lowIndex)
                     return;
-                int j = partition(low, high);
-                sort(low, j - 1);
-                sort(j + 1, high);
+                int partitionIndex = derivePartition(lowIndex, highIndex);
+                sort(lowIndex, partitionIndex - 1); // Left Side of Pivot Recursion
+                sort(partitionIndex + 1, highIndex); //Right Side Of Pivot Recursion
             }
 
             //Partitioning Logic
-            int partition(int low, int high)
+            int derivePartition(int lowIndex, int highIndex)
             {
-                int i = low;
-                int j = high + 1;
-                int pivot = array[low];
-
-
+                int iterator = lowIndex;
+                int neighbhour = highIndex + 1;
+                int pivot = array[lowIndex];
+                 
                 //Sorting at Left and Right Of the Pivot
                 while (true)
                 {
-                    while (array[++i] < pivot)
+                    while (array[++iterator] < pivot)
                     {
-                        if (i == high)
+                        if (iterator == highIndex)
                             break;
                     }
 
-                    while (pivot < array[--j])
+                    while (pivot < array[--neighbhour])
                     {
-                        if (j == low)
+                        if (neighbhour == lowIndex)
                             break;
                     }
-                    if (i >= j)
+                    if (iterator >= neighbhour)
                         break;
-                    swap(array, i, j);
+                    swap(array, iterator, neighbhour);
 
                 }
-                swap(array, low, j);
-                return j;
+                swap(array, lowIndex, neighbhour);
+                return neighbhour;
             }
         }
     }

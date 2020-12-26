@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AlgorithmConcepts\AlgorithmConcepts.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="Complexity\Data\16Kints.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

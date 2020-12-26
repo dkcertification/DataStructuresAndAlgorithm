@@ -1,19 +1,12 @@
-﻿using AlgorithmTour.ArrayDS_Algo;
-using AlgorithmTour.Complexity;
-using AlgorithmTour.Concepts;
-using AlgorithmTour.Problems;
-using AlgorithmTour.StackDS_Algo;
+﻿using AlgorithmConcepts.Concepts;
+using AlgorithmConcepts.Concepts.List;
 using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using static AlgorithmTour.Complexity.Algorithms_DataStruct;
 
 namespace AlgorithmTour
 {
     class Program
     {
-
+        #region "Other Debugs"
         //FOR ARRAYS
         //static void Main(string[] args)
         //{
@@ -130,28 +123,40 @@ namespace AlgorithmTour
         //        Console.WriteLine("The expression is not balanced");
         //    }
 
+        //118 ms = 1kints
+        //7 Sec = 4Kints
+        //57 Sec for 8kints
+        //var ints = Concept.ReadInt("16kints.txt").ToArray();
+        //var watch = new Stopwatch();
+        //watch.Start();
+        //var triplets = ThreeSum.Count(ints);
 
+        //watch.Stop();
+        //Console.WriteLine(triplets);
+        //Console.WriteLine($"Time Taken : {watch.Elapsed:g}");
+        //Console.ReadLine();
+
+        //BubbleSort.BubbleSortImpl(new int[] { 2, 6, 10, 20, 40, 5 });
 
         //}
+        #endregion
 
+        #region "Current Debugger"
         public static void Main(String[] args)
         {
-            //118 ms = 1kints
-            //7 Sec = 4Kints
-            //57 Sec for 8kints
-            //var ints = Concept.ReadInt("16kints.txt").ToArray();
-            //var watch = new Stopwatch();
-            //watch.Start();
-            //var triplets = ThreeSum.Count(ints);
+            /*Quick Sort Debugger ::
+            int[] array = { 5, 4, 20, 31, 80, 66, 40, 15 };
 
-            //watch.Stop();
-            //Console.WriteLine(triplets);
-            //Console.WriteLine($"Time Taken : {watch.Elapsed:g}");
-            //Console.ReadLine();
+            Console.WriteLine("Before Sorting : {0}" , string.Join(" , ", array));
 
-            //BubbleSort.BubbleSortImpl(new int[] { 2, 6, 10, 20, 40, 5 });
+            QuickSort.Sort(array);
 
+            Console.WriteLine("After Sorting : {0}", string.Join(" , ", array));*/
+
+            listDemo.Run();
+            listDemo.ApiMembers();
         }
+        #endregion
     }
 
 }
