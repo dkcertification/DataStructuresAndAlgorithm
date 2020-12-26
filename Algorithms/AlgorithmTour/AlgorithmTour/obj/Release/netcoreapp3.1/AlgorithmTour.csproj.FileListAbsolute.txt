@@ -15,4 +15,3 @@ E:\DataStructuresAndAlgorithm\Algorithms\AlgorithmTour\AlgorithmTour\obj\Release
 E:\DataStructuresAndAlgorithm\Algorithms\AlgorithmTour\AlgorithmTour\obj\Release\netcoreapp3.1\AlgorithmTour.dll
 E:\DataStructuresAndAlgorithm\Algorithms\AlgorithmTour\AlgorithmTour\obj\Release\netcoreapp3.1\AlgorithmTour.pdb
 E:\DataStructuresAndAlgorithm\Algorithms\AlgorithmTour\AlgorithmTour\obj\Release\netcoreapp3.1\AlgorithmTour.genruntimeconfig.cache
-E:\DataStructuresAndAlgorithm\Algorithms\AlgorithmTour\AlgorithmTour\obj\Release\netcoreapp3.1\AlgorithmTour.csprojAssemblyReference.cache
