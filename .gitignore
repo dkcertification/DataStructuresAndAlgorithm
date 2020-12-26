@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Algorithms/AlgorithmTour/AlgorithmConcepts/bin/Release/netcoreapp3.1
+/Algorithms/AlgorithmTour/AlgorithmTour.Test/bin/Release/netcoreapp3.1

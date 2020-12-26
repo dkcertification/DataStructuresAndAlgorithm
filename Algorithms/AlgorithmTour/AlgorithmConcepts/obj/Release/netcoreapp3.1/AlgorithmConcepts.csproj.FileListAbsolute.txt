@@ -6,4 +6,3 @@ E:\DataStructuresAndAlgorithm\Algorithms\AlgorithmTour\AlgorithmConcepts\obj\Rel
 E:\DataStructuresAndAlgorithm\Algorithms\AlgorithmTour\AlgorithmConcepts\obj\Release\netcoreapp3.1\AlgorithmConcepts.csproj.CoreCompileInputs.cache
 E:\DataStructuresAndAlgorithm\Algorithms\AlgorithmTour\AlgorithmConcepts\obj\Release\netcoreapp3.1\AlgorithmConcepts.dll
 E:\DataStructuresAndAlgorithm\Algorithms\AlgorithmTour\AlgorithmConcepts\obj\Release\netcoreapp3.1\AlgorithmConcepts.pdb
-E:\DataStructuresAndAlgorithm\Algorithms\AlgorithmTour\AlgorithmConcepts\obj\Release\netcoreapp3.1\AlgorithmConcepts.csprojAssemblyReference.cache
