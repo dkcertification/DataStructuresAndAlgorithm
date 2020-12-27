@@ -153,8 +153,11 @@ namespace AlgorithmTour
 
             Console.WriteLine("After Sorting : {0}", string.Join(" , ", array));*/
 
-            listDemo.Run();
+            /*listDemo.Run();
             listDemo.ApiMembers();
+            */
+
+            NodeBuilder.BuildAndPrintNodes();
         }
         #endregion
     }
