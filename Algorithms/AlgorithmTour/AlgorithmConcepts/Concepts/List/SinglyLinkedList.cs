@@ -75,6 +75,7 @@ namespace AlgorithmConcepts.Concepts.List
 
             if (Count == 1)
                 Tail = null;
+
             Count--;
         }
 

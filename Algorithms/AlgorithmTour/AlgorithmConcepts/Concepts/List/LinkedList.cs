@@ -13,6 +13,7 @@ namespace AlgorithmConcepts.Concepts.List
         - Remove
         - Find
         - Enumerate
+
     Type of Linked List 
         - Singly LinkedList
             Each node contain only 1 Reference which ref to the next node 
@@ -22,6 +23,16 @@ namespace AlgorithmConcepts.Concepts.List
      */
     class LinkedList
     {
-        //Blank Class 
+        /*Pseudo
+         LinkedList : Concept
+         Data Struture Used : List 
+         */
+       
+        /*
+        
+        
+
+         
+         */
     }
 }
