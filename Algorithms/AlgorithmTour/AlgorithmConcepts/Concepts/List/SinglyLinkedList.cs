@@ -4,36 +4,21 @@ using System.Text;
 
 namespace AlgorithmConcepts.Concepts.List
 {
-
-    public class Node<T>
-    {
-        private T value;
-
-        public T Value { get; set; }
-        public Node<T> Next { get; set; }
-
-        public Node(T _value)
-        {
-            Value = _value;
-        }
-
-
-    }
     public class SinglyLinkedList<T>
     {
-        public Node<T> Head { get; private set; }
-        public Node<T> Tail { get; private set; }
+        public SinglyLinkedNode<T> Head { get; private set; }
+        public SinglyLinkedNode<T> Tail { get; private set; }
         public int Count { get; private set; }
 
         public void AddFirst(T value)
         {
-            AddFirst(new Node<T>(value));
+            AddFirst(new SinglyLinkedNode<T>(value));
         }
 
-        private void AddFirst(Node<T> node)
+        private void AddFirst(SinglyLinkedNode<T> node)
         {
             //Save of the current node
-            Node<T> temp = Head;
+            SinglyLinkedNode<T> temp = Head;
             Head = node;
 
             //Shifting the former Head
@@ -49,10 +34,10 @@ namespace AlgorithmConcepts.Concepts.List
 
         public void AddLast(T value)
         {
-            AddLast(new Node<T>(value));
+            AddLast(new SinglyLinkedNode<T>(value));
         }
 
-        private void AddLast(Node<T> node)
+        private void AddLast(SinglyLinkedNode<T> node)
         {
             if (IsEmpty)
             {
