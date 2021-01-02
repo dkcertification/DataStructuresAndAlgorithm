@@ -1,10 +1,11 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 
 namespace AlgorithmConcepts.Concepts.List
 {
-    public class SinglyLinkedList<T>
+    public class SinglyLinkedList<T>: IEnumerable<T>
     {
         public SinglyLinkedNode<T> Head { get; private set; }
         public SinglyLinkedNode<T> Tail { get; private set; }
@@ -87,7 +88,22 @@ namespace AlgorithmConcepts.Concepts.List
             Count--;
         }
 
-        public bool IsEmpty => Count == 0;
+        public IEnumerator<T> GetEnumerator()
+        {
+            SinglyLinkedNode<T> current = Head;
+            while (current != null)
+            {
+                yield return current.Value;
+                current = current.Next;
+            }
+        }
 
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
+        }
+
+        public bool IsEmpty => Count == 0;
+        
     }
 }

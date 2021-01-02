@@ -62,7 +62,7 @@ namespace AlgorithmConcepts.Concepts.Queue
 
         public IEnumerator<T> GetEnumerator()
         {
-            for (int iCounter = 0; iCounter < _Tail; iCounter++)
+            for (int iCounter = _Head; iCounter < _Tail; iCounter++)
             {
                 yield return _Items[iCounter];
             }
